@@ -27,18 +27,14 @@ function main(){
 
     while(c <parseInt(t) ){
        let st = readline();
-
-       if(st.length >10  ){
-           
-           	 st = st.split("");
-           	 let mlen = st.length-2;
+       if(st.length >10  ){     
+             st = st.split("");
+             let mlen = st.length-2;
              let newst = st[0]+ mlen + st[st.length-1];
-             console.log(newst);
-          
+             console.log(newst);    
        } else{
        	   console.log(st);
        }
-
      c++;
     }
 }
